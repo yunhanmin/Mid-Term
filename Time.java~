@@ -1,0 +1,60 @@
+/* 
+ * Scanner for input
+ * for loop
+ * while loop
+ * if/else if/else
+ * switch
+ * array
+ */
+
+/*
+ * Switch
+ */
+import java.util.Scanner;
+
+public class Time {
+ 
+  public static void main( String[] args ) {
+   
+    Scanner s = new Scanner( System.in );
+    int time;
+    
+    System.out.println( "Enter a number to find the time: ");
+    day = s.nextInt();
+    
+    System.out.println( "Time is #" + time + ":" + getName(time) );
+  }
+  
+  public static String getName( int time ) {
+    switch( time ) {
+      
+      case 1:
+        return "One";
+      case 2:
+        return "Two";
+      case 3:
+        return "Three";
+      case 4:
+        return "Four";
+      case 5:
+        return "Five";
+      case 6:
+        return "Six";
+      case 7:
+        return "Seven";
+      case 1:
+        return "Eight";
+      case 1:
+        return "Nine";
+      case 1:
+        return "Ten";
+      case 1:
+        return "Eleven";
+      case 1:
+        return "Twelve";
+        
+      default:
+        return "Error - not a time number";
+    }
+  }
+}

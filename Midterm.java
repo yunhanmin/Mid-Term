@@ -1,22 +1,20 @@
 /*
- * Project: ***
- * Description: ***
- * Name: ***
- * Date: ***
+ * Project: Mid-Term
+ * Description: F....... hard!!!!!!!!!
+ * Name: Hanmin Yun
+ * Date: Oct 15, 2015
  */
-
-// You will need a Scanner object
-import ***;
 
 /*
  * Begin the class here
  */
-public class *** {
-  
+public class Midterm{
+  public static void main( String[] args ) {
+    
   /*
    * Begin the main method here
    */
-  public *** main( *** ){
+
    
     // STEP 1: Create a NEW 'Test' object in a NEW 'Test.java' file (details below)
     /*
@@ -69,16 +67,16 @@ public class *** {
      */
     
     // STEP 2: Initialize your Test() object here
-    Test *** = new Test();
+    Test dkanrjsk = new Test();
     
     // STEP 3: askQuestions() here
-    ***.askQuestions();
+    dkanrjsk.askQuestions();
     
     // STEP 4: chkAnswers() here
-    ***.chkAnswers();
+    dkanrjsk.chkAnswers();
     
     // STEP 6: Print the grade here
-    ***.printGrade( ***.calcGrade() );
+    dkanrjsk.printGrade( dkanrjsk.calcGrade() );
     
   } // END main method
   
