@@ -24,11 +24,9 @@ public class SmallerOne {
    
     if ( x==y ) {
      return x; 
-    } else {
-     if( x < y ) return x;
+    } else if ( x < y ) {return x;}
      else return y;
     }
     
   }
   
-}

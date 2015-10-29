@@ -22,7 +22,7 @@ public class SmallerOne {
   
   public static int isSmaller( int x, int y) {
    
-    inf ( x==y) {
+    if ( x==y ) {
      return x; 
     } else {
      if( x < y ) return x;
